@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2de7d90-2584-4f2f-925f-e9d34dcb1f94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
     </list>
@@ -49,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in w11d2_java_library">
     <configuration name="All in w11d2_java_library" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w11d2_java_library" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,9 +61,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookTest.canGetTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w11d2_java_library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="canGetTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in w11d2_java_library" />
+        <item itemvalue="JUnit.BookTest.canGetTitle" />
       </list>
     </recent_temporary>
   </component>

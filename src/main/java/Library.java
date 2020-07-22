@@ -3,16 +3,19 @@ import java.util.ArrayList;
 public class Library {
 
     private int capacity;
-    private ArrayList<Library> library;
+    private ArrayList<Book> stock;
 
-    public Library(int capacity){
+    public Library(int capacity) {
         this.capacity = capacity;
-        this.library = new ArrayList<Library>();
+        this.stock = new ArrayList<Book>();
     }
 
-    public int stockCount(){
-        return this.library.size();
+    public int stockCount() {
+        return this.stock.size();
     }
 
+    public void addBook(Book book) {
+            this.stock.add(book);
+        }
 }
 
