@@ -19,5 +19,6 @@ public class Library {
             this.stock.add(book);
         }
     }
+
 }
 
